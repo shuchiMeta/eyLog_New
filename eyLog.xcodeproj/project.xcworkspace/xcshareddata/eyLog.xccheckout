@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04AB1F64-F454-4583-AFB5-9ADC2B8D5FE8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eyLog</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>915938f9-cd85-954d-b2ff-1fda21f8408c</key>
+		<string>https://svn.metadesignsolutions.com/svn/eyLog</string>
+		<key>915938f9-cd85-954d-b2ff-1fda21f8408c++5774</key>
+		<string>https://svn.metadesignsolutions.com/svn/eyLog/branches</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eyLog/eyLog.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>915938f9-cd85-954d-b2ff-1fda21f8408c</key>
+		<string>../../../..</string>
+		<key>915938f9-cd85-954d-b2ff-1fda21f8408c++5774</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>915938f9-cd85-954d-b2ff-1fda21f8408c++5774</key>
+		<string>https://svn.metadesignsolutions.com/svn/eyLog</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.metadesignsolutions.com/svn/eyLog/branches/eyLog/eyLog.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>915938f9-cd85-954d-b2ff-1fda21f8408c++5774</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>915938f9-cd85-954d-b2ff-1fda21f8408c</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>915938f9-cd85-954d-b2ff-1fda21f8408c++5774</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EyLog_1.0.2.30</string>
+		</dict>
+	</array>
+</dict>
+</plist>

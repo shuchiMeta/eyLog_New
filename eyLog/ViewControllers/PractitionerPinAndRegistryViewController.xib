@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PractitionerPinAndRegistryViewController">
+            <connections>
+                <outlet property="cancelBtn" destination="Vp1-C5-3SS" id="AgV-46-BB2"/>
+                <outlet property="enterPinLabel" destination="18n-yT-CQw" id="eXh-fo-XUZ"/>
+                <outlet property="okBtn" destination="NVG-fC-gf9" id="9E6-XR-eGJ"/>
+                <outlet property="pinTextfield" destination="Gqx-Z8-HMi" id="Qj6-Fa-ODX"/>
+                <outlet property="practionerName" destination="8vn-Im-Lto" id="Tqv-uU-719"/>
+                <outlet property="practitionerIamge" destination="Uyd-do-Wtb" id="gZf-Gz-oyl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="453" height="193"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-do-Wtb">
+                    <rect key="frame" x="16" y="20" width="120" height="111"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="0io-Kr-JxK"/>
+                        <constraint firstAttribute="height" constant="111" id="3EE-3B-gDr"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To mark yourself IN enter your Pin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18n-yT-CQw">
+                    <rect key="frame" x="144" y="54" width="293" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="YOx-Ic-3n2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gqx-Z8-HMi">
+                    <rect key="frame" x="213" y="101" width="91" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3I9-jy-A4D"/>
+                        <constraint firstAttribute="width" constant="91" id="JAB-0v-ZmD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vn-Im-Lto">
+                    <rect key="frame" x="169" y="21" width="237" height="25"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVG-fC-gf9">
+                    <rect key="frame" x="318" y="147" width="114" height="30"/>
+                    <color key="backgroundColor" red="0.2156862745" green="0.59999999999999998" blue="0.2470588235" alpha="0.63" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Uoa-eF-WBZ"/>
+                        <constraint firstAttribute="width" constant="114" id="Z1h-g9-WZb"/>
+                    </constraints>
+                    <size key="titleShadowOffset" width="1" height="1"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="okBtnAction:" destination="-1" eventType="touchUpInside" id="5fS-Ec-osJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vp1-C5-3SS">
+                    <rect key="frame" x="19" y="148" width="118" height="30"/>
+                    <color key="backgroundColor" red="0.2156862745" green="0.59999999999999998" blue="0.2470588235" alpha="0.63" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="WBg-rT-kfW"/>
+                        <constraint firstAttribute="width" constant="118" id="lCC-P4-01G"/>
+                    </constraints>
+                    <size key="titleShadowOffset" width="1" height="1"/>
+                    <state key="normal" title="CANCEL">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelBtnAction:" destination="-1" eventType="touchUpInside" id="d8R-jk-f22"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.75686274509999996" green="0.76862745099999996" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="8vn-Im-Lto" firstAttribute="leading" secondItem="Uyd-do-Wtb" secondAttribute="trailing" constant="33" id="1rW-fw-wHE"/>
+                <constraint firstAttribute="bottom" secondItem="Vp1-C5-3SS" secondAttribute="bottom" constant="15" id="95C-CC-BRT"/>
+                <constraint firstItem="Vp1-C5-3SS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="19" id="D1g-Yk-p0P"/>
+                <constraint firstItem="18n-yT-CQw" firstAttribute="top" secondItem="8vn-Im-Lto" secondAttribute="bottom" constant="8" id="DIi-ay-6Jr"/>
+                <constraint firstAttribute="trailing" secondItem="8vn-Im-Lto" secondAttribute="trailing" constant="47" id="Ffj-kV-sSm"/>
+                <constraint firstItem="Vp1-C5-3SS" firstAttribute="top" secondItem="Uyd-do-Wtb" secondAttribute="bottom" constant="17" id="GlA-Rl-Yot"/>
+                <constraint firstAttribute="bottom" secondItem="NVG-fC-gf9" secondAttribute="bottom" constant="16" id="IYc-Xf-iIG"/>
+                <constraint firstAttribute="bottom" secondItem="Gqx-Z8-HMi" secondAttribute="bottom" constant="62" id="JQP-CF-4W3"/>
+                <constraint firstItem="Gqx-Z8-HMi" firstAttribute="leading" secondItem="Uyd-do-Wtb" secondAttribute="trailing" constant="77" id="Kzz-pp-FSc"/>
+                <constraint firstItem="8vn-Im-Lto" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="21" id="T6Y-U9-iK9"/>
+                <constraint firstItem="Gqx-Z8-HMi" firstAttribute="top" secondItem="18n-yT-CQw" secondAttribute="bottom" constant="8" symbolic="YES" id="a1w-uk-7DK"/>
+                <constraint firstItem="Uyd-do-Wtb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="hW6-A5-NZe"/>
+                <constraint firstAttribute="trailing" secondItem="NVG-fC-gf9" secondAttribute="trailing" constant="21" id="lLR-Cz-8BK"/>
+                <constraint firstItem="18n-yT-CQw" firstAttribute="leading" secondItem="Uyd-do-Wtb" secondAttribute="trailing" constant="8" symbolic="YES" id="rda-39-aV4"/>
+                <constraint firstAttribute="trailing" secondItem="18n-yT-CQw" secondAttribute="trailing" constant="16" id="tec-2y-8S2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="369.5" y="239.5"/>
+        </view>
+    </objects>
+</document>

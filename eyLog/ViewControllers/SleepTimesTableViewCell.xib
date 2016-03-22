@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kSleepTimesTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="SleepTimesTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEg-Yp-t3P" userLabel="btn_FellAsSleep">
+                        <rect key="frame" x="0.0" y="0.0" width="110" height="59"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="k23-ka-lNP"/>
+                        </constraints>
+                        <state key="normal" title="00:00">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="sleepTimeButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Tu8-jJ-Na6"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4l-2U-hco" userLabel="btn_WokeUp">
+                        <rect key="frame" x="110" y="0.0" width="110" height="59"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="dXo-6O-ZDw"/>
+                        </constraints>
+                        <state key="normal" title="00:00">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="sleepTimeButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bkT-m1-olF"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cl7-fD-yue" userLabel="btn_SleptMins">
+                        <rect key="frame" x="220" y="0.0" width="110" height="59"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="N47-vI-yJY"/>
+                        </constraints>
+                        <state key="normal" title="00:00">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="sleepTimeButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rIH-lt-ovB"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="504" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffX-Yr-xEd" userLabel="btn_Add">
+                        <rect key="frame" x="330" y="0.0" width="110" height="59"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="3bQ-PR-zVJ"/>
+                        </constraints>
+                        <state key="normal" image="Button_Add">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="sleepTimeButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="w8T-3t-iJL"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="505" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7B-gc-DUK" userLabel="btn_Delete">
+                        <rect key="frame" x="330" y="0.0" width="110" height="59"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="HUO-kv-Ovw"/>
+                        </constraints>
+                        <state key="normal" image="button_Delete">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="sleepTimeButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Gr3-8U-KzH"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SsB-j7-lcV">
+                        <rect key="frame" x="0.0" y="58" width="440" height="1"/>
+                        <color key="backgroundColor" red="0.84313725490196079" green="0.84313725490196079" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="CQc-Ab-QXD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="SsB-j7-lcV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GAU-zb-J6E"/>
+                    <constraint firstAttribute="bottom" secondItem="cl7-fD-yue" secondAttribute="bottom" id="GIQ-sI-gc6"/>
+                    <constraint firstItem="A4l-2U-hco" firstAttribute="width" secondItem="ffX-Yr-xEd" secondAttribute="width" id="JeY-eS-77j"/>
+                    <constraint firstAttribute="bottom" secondItem="YEg-Yp-t3P" secondAttribute="bottom" id="MZX-KF-baD"/>
+                    <constraint firstAttribute="bottom" secondItem="A4l-2U-hco" secondAttribute="bottom" id="PO9-1h-brM"/>
+                    <constraint firstItem="cl7-fD-yue" firstAttribute="leading" secondItem="A4l-2U-hco" secondAttribute="trailing" id="PRm-5p-iV2"/>
+                    <constraint firstItem="A4l-2U-hco" firstAttribute="width" secondItem="j7B-gc-DUK" secondAttribute="width" id="PYe-dI-9dE"/>
+                    <constraint firstAttribute="trailing" secondItem="ffX-Yr-xEd" secondAttribute="trailing" id="T2Q-Tu-Qao"/>
+                    <constraint firstAttribute="bottom" secondItem="SsB-j7-lcV" secondAttribute="bottom" id="Ugu-FF-Pcf"/>
+                    <constraint firstAttribute="trailing" secondItem="j7B-gc-DUK" secondAttribute="trailing" id="Wps-HK-n3u"/>
+                    <constraint firstItem="YEg-Yp-t3P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WzR-9v-0FA"/>
+                    <constraint firstItem="j7B-gc-DUK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Xmt-kM-meI"/>
+                    <constraint firstItem="j7B-gc-DUK" firstAttribute="leading" secondItem="cl7-fD-yue" secondAttribute="trailing" id="YeC-Z2-uHJ"/>
+                    <constraint firstItem="cl7-fD-yue" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Zjd-rS-7u4"/>
+                    <constraint firstItem="A4l-2U-hco" firstAttribute="width" secondItem="cl7-fD-yue" secondAttribute="width" id="a1m-bt-fWI"/>
+                    <constraint firstItem="ffX-Yr-xEd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="amb-fr-jaK"/>
+                    <constraint firstItem="A4l-2U-hco" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cgy-bg-bP1"/>
+                    <constraint firstItem="A4l-2U-hco" firstAttribute="width" secondItem="YEg-Yp-t3P" secondAttribute="width" id="eEx-88-jG4"/>
+                    <constraint firstItem="A4l-2U-hco" firstAttribute="leading" secondItem="YEg-Yp-t3P" secondAttribute="trailing" id="ebd-xU-h1t"/>
+                    <constraint firstItem="YEg-Yp-t3P" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fgj-AR-lIY"/>
+                    <constraint firstItem="ffX-Yr-xEd" firstAttribute="leading" secondItem="cl7-fD-yue" secondAttribute="trailing" id="ojL-Su-48V"/>
+                    <constraint firstAttribute="trailing" secondItem="SsB-j7-lcV" secondAttribute="trailing" id="r0E-ki-goj"/>
+                    <constraint firstAttribute="bottom" secondItem="ffX-Yr-xEd" secondAttribute="bottom" id="rM4-vf-hiB"/>
+                    <constraint firstAttribute="bottom" secondItem="j7B-gc-DUK" secondAttribute="bottom" id="vrk-kp-Sxb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btn_AddRow" destination="ffX-Yr-xEd" id="5PY-8i-JJA"/>
+                <outlet property="btn_DeleteRow" destination="j7B-gc-DUK" id="oVD-NC-P7j"/>
+                <outlet property="btn_FellAsleep" destination="YEg-Yp-t3P" id="qOo-qP-LtZ"/>
+                <outlet property="btn_SleeptMins" destination="cl7-fD-yue" id="Abp-nB-AkT"/>
+                <outlet property="btn_WokeUp" destination="A4l-2U-hco" id="Cdk-K1-ePq"/>
+            </connections>
+            <point key="canvasLocation" x="201" y="200"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Button_Add" width="110" height="60"/>
+        <image name="button_Delete" width="110" height="60"/>
+    </resources>
+</document>

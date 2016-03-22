@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="AdditionalNotes" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Age" representedClassName="Age" syncable="YES">
+        <attribute name="ageDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ageEnd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ageIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ageStart" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="aspectIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Aspect" representedClassName="Aspect" syncable="YES">
+        <attribute name="areaIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="aspectDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aspectIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statements" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Assessment" representedClassName="Assessment" syncable="YES">
+        <attribute name="ageEnd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ageStart" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelValue" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="weightage" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Audio" representedClassName="Audio" syncable="YES">
+        <attribute name="isDelete" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cfe" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CfeAssesmentDataBase" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CfeFramework" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CfeLevelFour" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelFourDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelFourGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelFourIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelThreeIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CfeLevelOne" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CfeLevelThree" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CfeLevelTwo" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelTwoGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Child" representedClassName="Child">
+        <attribute name="ageMonths" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="childId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="childInoutDataWithDateAndChild" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="currentDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dietaryRequirment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="englistAdditionalLanguage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ethnicity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nationality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practitionerId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pupilPremium" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="registryArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="registryStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="religion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareTwoYearReport" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="slt" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="specialEducationalNeeds" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="twoYearFunding" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="ChildInOutTime" representedClassName="ChildInOutTime" syncable="YES">
+        <attribute name="childID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="currentDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeDifference" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniqueTabletOID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="DailyDiaryDataEntity" representedClassName="DailyDiaryDataEntity" syncable="YES">
+        <attribute name="childId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jsonDict" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DiaryEntity" representedClassName="DiaryEntity" syncable="YES">
+        <attribute name="age_group" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age_group_end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age_group_start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cameInVariableName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leftAtVariableName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visibility" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="fields" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DiaryFields" inverseName="relationship" inverseEntity="DiaryFields" syncable="YES"/>
+    </entity>
+    <entity name="DiaryFields" representedClassName="DiaryFields" syncable="YES">
+        <attribute name="keyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keyValue" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiaryEntity" inverseName="fields" inverseEntity="DiaryEntity" syncable="YES"/>
+    </entity>
+    <entity name="Ecat" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EcatArea" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EcatAspect" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EcatFramework" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EcatStatement" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Ethnicity" syncable="YES">
+        <attribute name="ethnicitychildid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ethnicityDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ethnicityId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="parent" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Eyfs" representedClassName="Eyfs" syncable="YES">
+        <attribute name="areaDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Framework" representedClassName="Framework" syncable="YES">
+        <attribute name="areaDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InOutSeparateManagementEntity" representedClassName="InOutSeparateManagementEntity" syncable="YES">
+        <attribute name="childId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isInUploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isInUploading" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isOutUploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isOutUploading" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="outTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practitionerId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="practitionerPin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="LeuvenScale" representedClassName="LeuvenScale" syncable="YES">
+        <attribute name="leuvenScaleType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scale" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="signals" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LevelFour" representedClassName="LevelFour" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelFourDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelFourGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelFourIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelThreeIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="LevelOne" representedClassName="LevelOne" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="LevelThree" representedClassName="LevelThree" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelThreeIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="LevelTwo" representedClassName="LevelTwo" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="levelTwoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelTwoGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelTwoIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Montessori" representedClassName="Montessori" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MontessoriAssesmentDataBase" representedClassName="MontessoriAssesmentDataBase" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MontessoriFramework" representedClassName="MontessoriFramework" syncable="YES">
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelOneIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="NewObservation" representedClassName="NewObservation" syncable="YES">
+        <attribute name="additionalNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="analysis" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apiKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apiPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cfe" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="checksums" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="childAge" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="childId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="childIdArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="childName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coel" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="ecat" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="ecatAssessment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ecatAssessmentLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="eyfsAgeBand" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="eyfsStatement" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isBefore" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isEditing" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isProccessed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUploading" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="montessori" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="nextSteps" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observationCreatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="observationId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="observedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practitionerId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="practitionerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practitionerPin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quickObservation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="readyForUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="scaleInvolvement" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="scaleWellBeing" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="strInternalNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueTabletOID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NewObservationAttachment" representedClassName="NewObservationAttachment" syncable="YES">
+        <attribute name="attachmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachmentPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachmentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="childId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deletePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAdded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isDeletedd" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="observationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practitionerId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailPath" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Nursery" representedClassName="Nursery" syncable="YES">
+        <attribute name="nurseryChain" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nurseryChainName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nurseryId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nuseryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Practitioners" representedClassName="Practitioners" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="allowSubmit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="eylogUserId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupLeader" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userRole" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RegistryDataEntity" representedClassName="RegistryDataEntity" syncable="YES">
+        <attribute name="childId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isUploading" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jsonDict" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Statement" representedClassName="Statement" syncable="YES">
+        <attribute name="ageIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="aspectIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="frameworkType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statementDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statementIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Toileting" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WhatIAteToday" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AdditionalNotes" positionX="99" positionY="207" width="128" height="75"/>
+        <element name="Age" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Aspect" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="Assessment" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Audio" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Cfe" positionX="72" positionY="171" width="128" height="105"/>
+        <element name="CfeAssesmentDataBase" positionX="99" positionY="198" width="128" height="90"/>
+        <element name="CfeFramework" positionX="81" positionY="180" width="128" height="105"/>
+        <element name="CfeLevelFour" positionX="72" positionY="171" width="128" height="135"/>
+        <element name="CfeLevelOne" positionX="108" positionY="207" width="128" height="105"/>
+        <element name="CfeLevelThree" positionX="63" positionY="162" width="128" height="120"/>
+        <element name="CfeLevelTwo" positionX="54" positionY="153" width="128" height="120"/>
+        <element name="Child" positionX="0" positionY="0" width="128" height="495"/>
+        <element name="ChildInOutTime" positionX="54" positionY="153" width="128" height="150"/>
+        <element name="DailyDiaryDataEntity" positionX="63" positionY="162" width="128" height="120"/>
+        <element name="DiaryEntity" positionX="81" positionY="180" width="128" height="165"/>
+        <element name="DiaryFields" positionX="72" positionY="171" width="128" height="90"/>
+        <element name="Ecat" positionX="36" positionY="162" width="128" height="90"/>
+        <element name="EcatArea" positionX="36" positionY="162" width="128" height="90"/>
+        <element name="EcatAspect" positionX="45" positionY="171" width="128" height="105"/>
+        <element name="EcatFramework" positionX="27" positionY="153" width="128" height="90"/>
+        <element name="EcatStatement" positionX="54" positionY="180" width="128" height="105"/>
+        <element name="Ethnicity" positionX="54" positionY="153" width="128" height="105"/>
+        <element name="Eyfs" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Framework" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="InOutSeparateManagementEntity" positionX="81" positionY="180" width="128" height="240"/>
+        <element name="LeuvenScale" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="LevelFour" positionX="45" positionY="180" width="128" height="135"/>
+        <element name="LevelOne" positionX="0" positionY="153" width="128" height="105"/>
+        <element name="LevelThree" positionX="27" positionY="171" width="128" height="120"/>
+        <element name="LevelTwo" positionX="9" positionY="162" width="128" height="120"/>
+        <element name="Montessori" positionX="45" positionY="171" width="128" height="105"/>
+        <element name="MontessoriAssesmentDataBase" positionX="27" positionY="153" width="128" height="88"/>
+        <element name="MontessoriFramework" positionX="36" positionY="162" width="128" height="28"/>
+        <element name="NewObservation" positionX="0" positionY="0" width="128" height="600"/>
+        <element name="NewObservationAttachment" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="Nursery" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Practitioners" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="RegistryDataEntity" positionX="72" positionY="171" width="128" height="135"/>
+        <element name="Statement" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="Toileting" positionX="81" positionY="198" width="128" height="75"/>
+        <element name="WhatIAteToday" positionX="36" positionY="162" width="128" height="75"/>
+    </elements>
+</model>
